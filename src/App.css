@@ -1,0 +1,67 @@
+* {
+  font-family: sans-serif;
+}
+
+#big {
+  background-color: black;
+}
+
+#bigHead {
+  color: rgb(35, 140, 201);
+  font-weight: bold;
+}
+
+img {
+  height: 200px;
+  width: 195px;
+}
+
+#allStudents {
+	border-radius: 10px;
+  border: thin solid rgb(35, 140, 201);
+  padding: 5em;
+  background-color: rgb(1, 1, 88);
+}
+
+#searchStudents {
+	border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(35, 140, 201);
+  border: thin solid rgb(35, 140, 201);
+  padding: 2.5em;
+  color: rgb(35, 140, 201);
+  background-color: rgb(1, 1, 88);
+  margin-bottom: 50px;
+  margin-left: 1px;
+}
+
+#sillySelect, #searchSelect{
+  margin-top: 24px;
+}
+
+#searchSelect {
+  font-weight: bold;
+  color: rgb(35, 140, 201);
+  margin-top: 47px;
+}
+
+#searchLabel {
+  margin-bottom: 24px;
+}
+
+#searchHeader {
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+#deck {
+  font-weight: bold;
+}
+
+#mainHeader, #deckHeader {
+  color: rgb(35, 140, 201);
+  font-weight: bold;
+}
+
+#mainHeader {
+  margin-bottom: 20px;
+}
