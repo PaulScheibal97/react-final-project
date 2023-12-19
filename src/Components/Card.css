@@ -1,0 +1,186 @@
+
+
+.card {
+    background-color: rgb(4, 4, 56, 0.1);
+    border: thin solid  rgb(35, 140, 201);
+    transition: rotate 600ms ease;
+}
+
+
+.card:hover {
+    box-shadow: 0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201),
+    0 0 40px rgb(35, 140, 201);
+    rotate: x 18deg;
+}
+
+.card:hover #editBtn, .card:hover #removeBtn {
+    opacity: 1;
+    color: white;
+    border: thin solid rgb(35, 140, 201);
+    text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+    background-color: transparent;
+    text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+}
+
+.card:hover #editBtn #sparkles {
+    filter: drop-shadow(0px 0px 5px rgb(35, 140, 201));
+}
+
+.card:hover #removeBtn #warning {
+    filter: drop-shadow(0px 0px 5px rgb(35, 140, 201));
+}
+
+.card ul li {
+    border: thin solid rgb(35, 140, 201);
+}
+
+#btnSave {
+    background-color: transparent;
+    border: thin solid rgb(35, 140, 201);
+    text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+    color: white;
+    text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+}
+
+#btnSave:hover {
+    box-shadow: 0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201),
+    0 0 40px rgb(35, 140, 201);
+}
+
+
+#sillyCopyright {
+    font-size: 13px;
+    color: white;
+    font-weight: normal;
+    text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+}
+
+
+.list-group-item {
+    color: white;
+    background-color: rgb(4, 4, 56, 0.0);
+    position: relative;
+    text-shadow: 0px 0px 6px rgb(35, 140, 201),
+    0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201);
+}
+
+#rareGlow {
+    color: white;
+    text-shadow: 0px 0px 6px rgb(35, 140, 201),
+    0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201);
+    
+}
+
+#powerGlow {
+    color: white;
+    text-shadow: 0px 0px 6px rgb(35, 140, 201),
+    0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201);
+}
+
+#sillyGlow {
+    color: white;
+    text-shadow: 0px 0px 6px rgb(35, 140, 201),
+    0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201);
+}
+
+#editName, #editRarity, #editPower, #editSilly {
+    background-color: rgb(4, 4, 56, 0.0);
+    color: white;
+    border: thin solid rgb(35, 140, 201);
+}
+
+#editName:focus, #editRarity:focus, #editPower:focus, #editSilly:focus {
+    box-shadow:
+  0 0 10px rgb(35, 140, 201),
+  0 0 20px rgb(35, 140, 201),
+  0 0 30px rgb(35, 140, 201),
+  0 0 40px rgb(35, 140, 201);
+}
+
+#editName::placeholder, #editRarity::placeholder, #editPower::placeholder, #editSilly::placeholder {
+    color: white;
+}
+
+#saveText {
+    margin-left: 40px;
+}
+
+#editBtn, #removeBtn {
+    opacity: 0;
+    width: 120px;
+    color: white;
+    text-shadow: 0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201),
+    0px 0px 10px rgb(35, 140, 201);
+    filter: drop-shadow(0px 0px 1px rgb(35, 140, 201));
+}
+
+#editBtn:hover, #removeBtn:hover {
+    box-shadow: 0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201);
+}
+
+#rareIcon {
+    color: white;
+    position: relative;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    filter: drop-shadow(0px 0px 6px rgb(255, 0, 255));
+}
+
+#powerIcon {
+    color: white;
+    position: relative;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    filter: drop-shadow(0px 0px 5px red);
+}
+
+#sillyIcon {
+    color: white;
+    position: relative;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    filter: drop-shadow(0px 0px 5px rgb(47, 211, 7));
+}
+
+.card:hover ul li #rareIcon, .card:hover ul li #powerIcon, .card:hover ul li #sillyIcon {
+    animation: rotate 1s infinite;
+    text-shadow: 0px 0px 15px black;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform:rotateY(360deg);
+    }
+    
+}
+
+
+
+

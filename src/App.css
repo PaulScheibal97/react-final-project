@@ -1,14 +1,156 @@
-* {
-  font-family: sans-serif;
-}
+
 
 #big {
-  background-color: black;
+  background-image: url("images/stars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #bigHead {
-  color: rgb(35, 140, 201);
+  color: white;
   font-weight: bold;
+  margin-bottom: 50px;
+  text-shadow: 0px 0px 6px rgb(35, 140, 201),
+    0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201);
+}
+
+#bigContainer {
+  height: 135px;
+  width: 700px;
+  margin-top: -40px;
+  margin-bottom: 35px;
+  -webkit-border-radius:10px;
+	-khtml-border-radius: 10px;	
+	-moz-border-radius: 10px;
+  box-shadow: 0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201);
+	border-radius: 10px;
+  border: thin solid rgb(35, 140, 201);
+  padding: 2.5em;
+}
+
+#mainHeader {
+  color: white !important;
+  font-size: 40px;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+}
+
+#happy1, #happy2 {
+  filter: drop-shadow(0px 0px 7px rgb(35, 140, 201));
+  color: white;
+ --fa-bounce-start-scale-x: 1;
+ --fa-bounce-start-scale-y: 1;
+ --fa-bounce-jump-scale-x: 1;
+ --fa-bounce-jump-scale-y: 1;
+ --fa-bounce-land-scale-x: 1;
+ --fa-bounce-land-scale-y: 1;
+ --fa-bounce-rebound: 0;
+}
+
+#happy1 {
+  margin-right: 15px;
+}
+
+#happy2 {
+  margin-left: 15px;
+}
+
+#searchIcon {
+  filter: drop-shadow(0px 0px 5px rgb(35, 140, 201));
+}
+
+
+#iconDescription {
+  width: 550px;
+  margin-top: 50px;
+  margin-bottom: 42px;
+  -webkit-border-radius:10px;
+	-khtml-border-radius: 10px;	
+	-moz-border-radius: 10px;
+  box-shadow: 0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201),
+    0 0 40px rgb(35, 140, 201);
+	border-radius: 10px;
+  border: thin solid rgb(35, 140, 201);
+  padding: 5em;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 6px rgb(35, 140, 201),
+    0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201);
+  transform: translateY(5px);
+}
+
+#sillyCopyright {
+  text-shadow: none;
+  margin-right: 20px;
+  color: black;
+}
+
+#gem {
+  margin-bottom: 10px;
+  font-size: 25px;
+  transform: translateX(-35px);
+  filter: drop-shadow(0px 0px 7px rgb(163, 15, 163));
+}
+
+#spinGem {
+  color: white;
+  filter: drop-shadow(0px 0px 7px rgb(163, 15, 163));
+}
+
+#spinFist {
+  color: white;
+  filter: drop-shadow(0px 0px 5px red);
+}
+
+#spinShield {
+  color: white;
+  filter: drop-shadow(0px 0px 5px rgb(47, 211, 7));
+}
+
+#spinGemText {
+  transform: translateX(-1.5px);
+  text-shadow: 0px 0px 2px rgb(163, 15, 163),
+    0px 0px 3px rgb(163, 15, 163),
+    0px 0px 4px rgb(163, 15, 163);
+}
+
+#spinFistText {
+  text-shadow: 0px 0px 2px red,
+    0px 0px 3px red,
+    0px 0px 4px red;
+}
+
+#spinShieldText {
+  transform: translateX(-1.5px);
+  text-shadow: 0px 0px 1px rgb(47, 211, 7),
+    0px 0px 2px rgb(47, 211, 7),
+    0px 0px 3px rgb(47, 211, 7);
+}
+
+#fist {
+  margin-bottom: 10px;
+  font-size: 25px;
+  filter: drop-shadow(0px 0px 5px red);
+}
+
+#shield {
+  margin-top: 5px;
+  font-size: 25px;
+  transform: translateX(-5.5px);
+  filter: drop-shadow(0px 0px 4px rgb(47, 211, 7));
 }
 
 img {
@@ -16,20 +158,34 @@ img {
   width: 195px;
 }
 
-#allStudents {
+#allCards {
+  -webkit-border-radius:10px;
+	-khtml-border-radius: 10px;	
+	-moz-border-radius: 10px;
 	border-radius: 10px;
+  box-shadow:
+    0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201),
+    0 0 40px rgb(35, 140, 201);
   border: thin solid rgb(35, 140, 201);
   padding: 5em;
-  background-color: rgb(1, 1, 88);
+  background-color: rgb(4, 4, 56, 0.7);
 }
 
-#searchStudents {
+#searchCards {
+  -webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	-moz-border-radius: 10px;
 	border-radius: 10px;
-  box-shadow: 5px 5px 5px rgb(35, 140, 201);
+  box-shadow:
+    0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201),
+    0 0 40px rgb(35, 140, 201);
   border: thin solid rgb(35, 140, 201);
   padding: 2.5em;
   color: rgb(35, 140, 201);
-  background-color: rgb(1, 1, 88);
   margin-bottom: 50px;
   margin-left: 1px;
 }
@@ -39,29 +195,193 @@ img {
 }
 
 #searchSelect {
-  font-weight: bold;
-  color: rgb(35, 140, 201);
+  color: white;
+  border: thin solid rgb(35, 140, 201);
+  text-shadow: 0px 0px 6px rgb(35, 140, 201),
+    0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201);
   margin-top: 47px;
+  width: 320px;
+}
+
+#searchSelect:hover {
+  background-color: transparent;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+    box-shadow:
+    0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201),
+    0 0 40px rgb(35, 140, 201);
 }
 
 #searchLabel {
+  color: white;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
   margin-bottom: 24px;
 }
 
+#searchInput {
+  border: thin solid rgb(35, 140, 201);
+  color: white;
+  text-shadow: 0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201),
+    0px 0px 6px rgb(35, 140, 201);
+}
+
+#searchInput:focus {
+  box-shadow:
+  0 0 10px rgb(35, 140, 201),
+  0 0 20px rgb(35, 140, 201),
+  0 0 30px rgb(35, 140, 201),
+  0 0 40px rgb(35, 140, 201);
+}
+
+#searchInput::placeholder {
+  font-size: 14px;
+  color: white;
+  text-shadow: 0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201),
+    0px 0px 6px rgb(35, 140, 201);
+}
+
+#searchInput {
+  background-color: transparent;
+}
+
 #searchHeader {
+  color: white;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
   margin-bottom: 35px;
-  font-weight: bold;
+}
+
+#mainText {
+  margin-bottom: 88px;
+}
+
+#firstText {
+  margin-bottom: 88px;
+}
+
+#middleText {
+  margin-bottom: 88px;
+}
+
+.main-text {
+  font-size: 24px;
+}
+
+#lastText {
+  margin-bottom: 130px;
+}
+
+#addCardBtn {
+  width: 460px;
+  font-size: 30px;
+  color: white;
+  border: thin solid rgb(35, 140, 201);
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+}
+
+#addCardBtn:hover {
+  background-color: transparent;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+    box-shadow:
+    0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201),
+    0 0 40px rgb(35, 140, 201);
+}
+
+#addCardBtn:hover a:link, #addCardBtn:hover a:visited {
+  color: white;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:link:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+a:visited{
+  color: white;
+}
+
+a:visited:hover {
+  color: white;
 }
 
 #deck {
-  font-weight: bold;
+  perspective: 1000px;
 }
 
 #mainHeader, #deckHeader {
-  color: rgb(35, 140, 201);
-  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+  margin-bottom: 25px;
 }
 
 #mainHeader {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width:800px) {
+  #iconDescription {
+    transform: translateX(0px);
+  }
+  #spinGemText {
+    transform: translateX(-10px);
+  }
+  p {
+    transform: translateX(-10px);
+    font-size: 12px;
+  }
+  #gem {
+    transform: translateX(-4px);
+    margin-bottom: 20px;
+  }
+  #shield {
+    transform: translateX(-2px);
+  }
+  #addCardBtn {
+    transform: translateX(0px);
+  }
+  #searchSelect {
+    width: 200px;
+  }
+  #searchInput {
+    width: 200px !important;
+  }
+  #iconDescription {
+    transform: translateX(17px);
+  }
+  #bigContainer {
+    height: 185px;
+  }
+  #txtName, #txtRarity, #txtPower, #txtSilly {
+    font-size: 12px;
+  }
+  #sillyCopyright {
+    font-size: 12px !important;
+    transform: translateX(0px);
+  }
 }

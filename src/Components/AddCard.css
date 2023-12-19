@@ -1,0 +1,141 @@
+
+
+.form-label {
+  color:white;
+  text-shadow: 0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201),
+    0px 0px 6px rgb(35, 140, 201);
+}
+
+#plus {
+  filter: drop-shadow(0px 0px 5px rgb(35, 140, 201));
+}
+
+#addCard {
+  -webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+  border: thin solid rgb(35, 140, 201);
+  box-shadow: 0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201),
+    0 0 40px rgb(35, 140, 201);
+  padding: 5em;
+  color: rgb(35, 140, 201);
+  margin-left: 20px;
+}
+
+#btnAdd {
+  margin-top: 20px;
+  color: white;
+  border: thin solid rgb(35, 140, 201);
+  text-shadow: 0px 0px 6px rgb(35, 140, 201),
+    0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201);
+}
+
+#btnAdd:hover {
+  background-color: transparent;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+    box-shadow:
+    0 0 10px rgb(35, 140, 201),
+    0 0 20px rgb(35, 140, 201),
+    0 0 30px rgb(35, 140, 201),
+    0 0 40px rgb(35, 140, 201);
+}
+
+#addHeader {
+  color: white;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+
+
+#txtName, #txtRarity, #txtPower, #txtSilly {
+  background-color: transparent;
+  border: thin solid rgb(35, 140, 201);
+  color: white;
+  text-shadow: 0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201),
+    0px 0px 6px rgb(35, 140, 201);
+}
+
+#txtName:focus, #txtRarity:focus, #txtPower:focus, #txtSilly:focus {
+  box-shadow:
+  0 0 10px rgb(35, 140, 201),
+  0 0 20px rgb(35, 140, 201),
+  0 0 30px rgb(35, 140, 201),
+  0 0 40px rgb(35, 140, 201);
+} 
+
+#txtName::placeholder {
+  color: white;
+  text-shadow: 0px 0px 3px rgb(35, 140, 201),
+    0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201);
+  font-size: 14px;
+}
+
+#txtRarity::placeholder {
+  color: white;
+  text-shadow: 0px 0px 3px rgb(35, 140, 201),
+    0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201);
+  font-size: 14px;
+}
+
+#txtPower::placeholder {
+  color: white;
+  text-shadow: 0px 0px 3px rgb(35, 140, 201),
+    0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201);
+  font-size: 14px;
+}
+
+#txtSilly::placeholder {
+  color: white;
+  text-shadow: 0px 0px 3px rgb(35, 140, 201),
+    0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201);
+  font-size: 14px;
+}
+
+#fileLabel {
+  margin-bottom: 8px;
+}
+
+input {
+  color: white;
+  text-shadow: 0px 0px 7px rgb(35, 140, 201),
+    0px 0px 8px rgb(35, 140, 201),
+    0px 0px 9px rgb(35, 140, 201);
+}
+
+input::file-selector-button {
+  cursor: pointer;
+  height: 40px;
+  background-color: rgb(35, 140, 201, 0.0);
+  color: white;
+  text-shadow: 0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201),
+    0px 0px 6px rgb(35, 140, 201);
+    border: thin solid rgb(35, 140, 201);
+  -webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  input {
+    width: 125px !important;
+  }
+}
